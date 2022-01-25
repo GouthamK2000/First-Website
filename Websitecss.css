@@ -51,3 +51,26 @@ ul .topnav li .dropdown{
         display:none;
     }
 }
+ul .topnav li .dropdown{
+    display:block;
+    float:right;
+}
+
+ul .topnav .responsive li .dropdown{
+    position: absolute;
+    top:0;
+    right:0;
+}
+ul .topnav .responsive{
+    position:relative;
+}
+
+ul .topnav .resposnsive li{
+    display:inline;s
+    float:none;
+}
+
+ul .topnav .responsive li a{
+    display:block;
+    text-align:left;
+}
