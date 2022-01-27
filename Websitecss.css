@@ -1,5 +1,5 @@
 nav,header,footer{
-    display:block
+    display:block;
 }
 body{
     line-height: 1;
@@ -125,4 +125,18 @@ ul .topnav .resposnsive li{
 ul .topnav .responsive li a{
     display:block;
     text-align:left;
+}
+
+div .leftside-col div .rigthside-col{
+    margin:15px;
+}
+input[type="text"]{
+    width:350px;
+}
+
+.videocontainer iframe{
+    position:relative;
+    width:100%;
+    margin:0;
+    overflow:hidden;
 }
