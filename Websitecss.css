@@ -188,6 +188,10 @@ article p{
     width:100%;
     width:0;
 }
+div .mobile{
+    width:50%;
+    display:block;
+}
 div .box{
     padding:5x;
     display:block;
@@ -215,4 +219,25 @@ input[type="text"]{
     width:100%;
     margin:0;
     overflow:hidden;
+}
+
+footer .footsy{
+    background-color: grey;
+    padding-left:10%;
+    
+}
+footer .footsy h1{
+    font-size: 35px;
+    color: white;
+}
+footer .footsy ul{
+    list-style: none;
+    text-align: left;
+    padding-left:0;
+    
+}
+footer .footsy li ul{
+    color:white;
+    font-size: 22px;
+    line-height: 1.5;
 }
